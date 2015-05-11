@@ -1,0 +1,2 @@
+# ocrApp
+Proto-phase1
