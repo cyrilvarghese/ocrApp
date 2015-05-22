@@ -1,10 +1,5 @@
+angular.module('starter.controllers', [])
 
-var requestToken = "";
-var accessToken = "";
-var refreshToken = "";
-var clientId = "408107061519-gavm04vvrd5a7gd049eb9pphnlbsoqpk.apps.googleusercontent.com";
-var clientSecret = "53htzkKzHsx7P6EKqchW3VLA";
-angular.module('starter.controllers',['ionic','ngCordova'])
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
   $scope.loginData = {};
@@ -50,13 +45,4 @@ angular.module('starter.controllers',['ionic','ngCordova'])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
-.controller('Oauth2Controller', function($scope, $stateParams,$cordovaOauth) {
-     $scope.login = function() {
-        $cordovaOauth.google(clientId, ["email"]).then(function(result) {
-            console.log(result);
-        }, function(error) {
-            console.log(error);
-        });
-    }
 });

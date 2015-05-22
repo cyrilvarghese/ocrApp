@@ -1,0 +1,11 @@
+{
+  "name": "ocr_client",
+  "app_id": "",
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "10.39.235.15"
+    }
+  ]
+}
