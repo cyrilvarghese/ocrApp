@@ -1,0 +1,11 @@
+{
+  "name": "ocr_proto_server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    
+  }
+}

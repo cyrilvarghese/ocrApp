@@ -15,6 +15,8 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "./engine/cordova-crosswalk-engine-c0.6.1"
+    "./engine/cordova-crosswalk-engine-c0.6.1",
+    "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
+    "cordova-plugin-camera"
   ]
 }
